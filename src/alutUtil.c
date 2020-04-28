@@ -1,5 +1,8 @@
 #include "alutInternal.h"
 
+#define HAVE_WINDOWS_H 1
+#define HAVE_SLEEP 1
+
 #if HAVE_NANOSLEEP && HAVE_TIME_H
 #include <time.h>
 #include <errno.h>

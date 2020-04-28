@@ -4,6 +4,8 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 
+#define HAVE_STAT 1
+
 #if HAVE_STAT
 #if HAVE_UNISTD_H
 #include <unistd.h>

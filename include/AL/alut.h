@@ -30,6 +30,9 @@ extern "C" {
  #endif
 #endif
 
+#undef ALUT_API
+#define ALUT_API
+
 #if defined(_WIN32)
  #define ALUT_APIENTRY __cdecl
 #else
